@@ -7,7 +7,6 @@ const socket: Socket = io(SERVER_URL);
 
 socket.on("connect", () => {
   console.log("Conectado al servidor WebSocket");
-  socket.emit("apiEvent", { message: "Hola desde el cliente" });
 });
 
 socket.on("websocketEvent", (data: any) => {

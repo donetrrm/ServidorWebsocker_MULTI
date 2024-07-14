@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "tsnd --respawn websocket.ts",
-    "test": "tsnd --respawn tests/websocket.ts"
+    "test": "tsnd --respawn tests/socketTest.ts"
   },
   "keywords": [],
   "author": "",
