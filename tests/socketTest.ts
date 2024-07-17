@@ -1,7 +1,7 @@
 import { Socket } from "socket.io-client";
 import io from "socket.io-client";
 
-const SERVER_URL = "https://678a-2806-2f0-81a0-27eb-169e-1c9-20f6-d1fb.ngrok-free.app";
+const SERVER_URL = "http://localhost:5000";
 
 const socket: Socket = io(SERVER_URL);
 
